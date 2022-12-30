@@ -1,0 +1,412 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>twitch-bot</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="logo.png">
+
+  </head>
+  <body class="en">
+    <div id="page">
+      <div id="screenMain">
+        <div id="mainHeader">
+            <span>Twitch Bot</span>
+           
+     
+        </div>
+        <div id="menuContainer" class="">
+          <div class="bg"></div>
+          <div class="container">
+            <div class="signInButton blueButton">Sign in</div>
+            <div class="content">
+              <div class="row">
+                <div
+                  class="icon"
+                  style="
+                    background-image: url('/static/assets/menu/settings.svg');
+                  "
+                ></div>
+                Settings
+              </div>
+              <div class="row">
+                <div
+                  class="icon"
+                  style="background-image: url('/static/assets/menu/help.svg')"
+                ></div>
+                Help
+              </div>
+              <div class="row">
+                <div
+                  class="icon"
+                  style="background-image: url('/static/assets/menu/about.svg')"
+                ></div>
+                About Hotspot Shield
+              </div>
+              <div class="row">
+                <div
+                  class="icon"
+                  style="
+                    background-image: url('/static/assets/menu/upgrade.svg');
+                  "
+                ></div>
+                Upgrade to Premium
+              </div>
+              <div class="row">
+                <div
+                  class="icon"
+                  style="background-image: url('/static/assets/menu/rate.svg')"
+                ></div>
+                Rate us
+              </div>
+            </div>
+            <div class="shareFooter">
+              Share this app
+              <div class="apps">
+                <img src="/static/assets/menu/fb.svg" /><img
+                  src="/static/assets/menu/tw.svg"
+                /><img src="/static/assets/menu/mail.svg" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="screenSettings" class="">
+          <div class="title">
+            Configuration
+            <div class="close"></div>
+          </div>
+          <div class="contentContainer scroll2">
+            <div class="block">
+              <div class="title">Servers</div>
+              <div class="content">
+                <div class="row">
+                  Auto server
+                  <div class="info">
+                    <div class="pinContainer"><div class="pin"></div></div>
+                    <div class="buble">
+                      Hotspot Shield auto selects the best server for your
+                      connection.
+                    </div>
+                  </div>
+                  <div class="radio on isRadio"></div>
+                </div>
+                <div class="row">
+                  <div
+                    class="flag"
+                    style="background-image: url('/static/assets/flags/us.svg')"
+                  ></div>
+                  United States
+                  <div class="radio off isRadio"></div>
+                </div>
+                <div class="row">
+                  <div
+                    class="flag"
+                    style="background-image: url('/static/assets/flags/ca.svg')"
+                  ></div>
+                  Canada
+                  <div class="info">
+                    <div class="pinContainer"><div class="pin"></div></div>
+                    <div class="buble">
+                      Location avaliable for premium subscribers.
+                    </div>
+                  </div>
+                  <div class="radio disabled"></div>
+                </div>
+                <div class="row">
+                  <div
+                    class="flag"
+                    style="background-image: url('/static/assets/flags/fr.svg')"
+                  ></div>
+                  France
+                  <div class="info">
+                    <div class="pinContainer"><div class="pin"></div></div>
+                    <div class="buble">
+                      Location avaliable for premium subscribers.
+                    </div>
+                  </div>
+                  <div class="radio disabled"></div>
+                </div>
+                <div class="row">
+                  <div
+                    class="flag"
+                    style="background-image: url('/static/assets/flags/de.svg')"
+                  ></div>
+                  Germany
+                  <div class="info">
+                    <div class="pinContainer"><div class="pin"></div></div>
+                    <div class="buble">
+                      Location avaliable for premium subscribers.
+                    </div>
+                  </div>
+                  <div class="radio disabled"></div>
+                </div>
+                <div class="row">
+                  <div
+                    class="flag"
+                    style="background-image: url('/static/assets/flags/in.svg')"
+                  ></div>
+                  India
+                  <div class="info">
+                    <div class="pinContainer"><div class="pin"></div></div>
+                    <div class="buble">
+                      Location avaliable for premium subscribers.
+                    </div>
+                  </div>
+                  <div class="radio disabled"></div>
+                </div>
+                <div class="row">
+                  <div
+                    class="flag"
+                    style="background-image: url('/static/assets/flags/nl.svg')"
+                  ></div>
+                  Netherlands
+                  <div class="info">
+                    <div class="pinContainer"><div class="pin"></div></div>
+                    <div class="buble">
+                      Location avaliable for premium subscribers.
+                    </div>
+                  </div>
+                  <div class="radio disabled"></div>
+                </div>
+                <div class="row">
+                  <div
+                    class="flag"
+                    style="background-image: url('/static/assets/flags/ru.svg')"
+                  ></div>
+                  Russian Federation
+                  <div class="info">
+                    <div class="pinContainer"><div class="pin"></div></div>
+                    <div class="buble">
+                      Location avaliable for premium subscribers.
+                    </div>
+                  </div>
+                  <div class="radio disabled"></div>
+                </div>
+                <div class="row">
+                  <div
+                    class="flag"
+                    style="background-image: url('/static/assets/flags/sg.svg')"
+                  ></div>
+                  Singapore
+                  <div class="info">
+                    <div class="pinContainer"><div class="pin"></div></div>
+                    <div class="buble">
+                      Location avaliable for premium subscribers.
+                    </div>
+                  </div>
+                  <div class="radio disabled"></div>
+                </div>
+                <div class="row">
+                  <div
+                    class="flag"
+                    style="background-image: url('/static/assets/flags/gb.svg')"
+                  ></div>
+                  United Kingdom
+                  <div class="info">
+                    <div class="pinContainer"><div class="pin"></div></div>
+                    <div class="buble">
+                      Location avaliable for premium subscribers.
+                    </div>
+                  </div>
+                  <div class="radio disabled"></div>
+                </div>
+                <div class="row"><span>Show less</span></div>
+              </div>
+            </div>
+            <div class="block">
+              <div class="title">Connection modes</div>
+              <div class="content">
+                <div class="row">
+                  <div class="highlight"></div>
+                  Sword
+                  <div class="info">
+                    <div class="pinContainer"><div class="pin"></div></div>
+                    <div class="buble">
+                      Feed web trackers fake web activity to keep your real web
+                      activity private.
+                    </div>
+                  </div>
+                  <div class="beta">BETA</div>
+                  <div class="toggle off"><div class="switch"></div></div>
+                </div>
+                <div class="row">
+                  Tracker blocker
+                  <div class="info">
+                    <div class="pinContainer"><div class="pin"></div></div>
+                    <div class="buble">
+                      Enable or disable analytic trackers (such as Google)
+                      during your Hotspot Shield session.
+                    </div>
+                  </div>
+                  <div class="beta">BETA</div>
+                  <div class="toggle off"><div class="switch"></div></div>
+                </div>
+                <div class="row">
+                  Ad blocker
+                  <div class="info">
+                    <div class="pinContainer"><div class="pin"></div></div>
+                    <div class="buble">
+                      Enable or disable ad blocking in Chrome browser during
+                      your Hotspot Shield session.
+                    </div>
+                  </div>
+                  <div class="beta">BETA</div>
+                  <div class="toggle off"><div class="switch"></div></div>
+                </div>
+                <div class="row">
+                  Malware blocker
+                  <div class="info">
+                    <div class="pinContainer"><div class="pin"></div></div>
+                    <div class="buble">
+                      Enable or disable ad malware blocker in Chrome browser
+                      during your Hotspot Shield session.
+                    </div>
+                  </div>
+                  <div class="beta">BETA</div>
+                  <div class="toggle off"><div class="switch"></div></div>
+                </div>
+                <div class="row">
+                  Cookie blocker
+                  <div class="info">
+                    <div class="pinContainer"><div class="pin"></div></div>
+                    <div class="buble">
+                      Enable or disable web cookies during your Hotspot Shield
+                      session.
+                    </div>
+                  </div>
+                  <div class="beta">BETA</div>
+                  <div class="toggle off"><div class="switch"></div></div>
+                </div>
+                <div class="row">
+                  Bypass local network
+                  <div class="info">
+                    <div class="pinContainer"><div class="pin"></div></div>
+                    <div class="buble">
+                      Bypass local resources. Such as web sites located in
+                      internal network, localhost, etc.
+                    </div>
+                  </div>
+                  <div class="beta">BETA</div>
+                  <div class="toggle off"><div class="switch"></div></div>
+                </div>
+                <div class="row">
+                  WebRTC blocker
+                  <div class="info">
+                    <div class="pinContainer"><div class="pin"></div></div>
+                    <div class="buble">
+                      WebRTC discovers IPs via the Interactive Connectivity
+                      Establishment (ICE) protocol. Enable this feature to
+                      prevent that.
+                    </div>
+                  </div>
+                  <div class="beta">BETA</div>
+                  <div class="toggle off"><div class="switch"></div></div>
+                </div>
+              </div>
+            </div>
+            <div class="block">
+              <div class="content">
+                <div class="row">
+                  Browser settings
+                  <div class="info">
+                    <div class="pinContainer"><div class="pin"></div></div>
+                    <div class="buble">
+                      Add and manage your secure and bypass sites here.
+                    </div>
+                  </div>
+                  <div class="right">Open in Chrome</div>
+                </div>
+              </div>
+            </div>
+            <div style="height: 90px"></div>
+          </div>
+        </div>
+        <div id="content" class="free">
+          <div id="mainButton">
+            <div class="button disconnected">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 240 240"
+                width="240"
+                height="240"
+                preserveAspectRatio="xMidYMid meet"
+                style="width: 100%; height: 100%"
+              >
+                <defs>
+                  <clipPath id="animationMask_8o2e3kqvGf">
+                    <rect width="240" height="240" x="0" y="0"></rect>
+                  </clipPath>
+                </defs>
+                <g clip-path="url(#animationMask_8o2e3kqvGf)">
+                  <g
+                    transform="matrix(1,0,0,1,-524.492,-1024.82)"
+                    opacity="1"
+                    style="user-select: none"
+                  >
+                    <g opacity="1" transform="matrix(1,0,0,1,0,0)">
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="miter"
+                        fill-opacity="0"
+                        stroke-miterlimit="10"
+                        stroke="#fff"
+                        stroke-opacity="1"
+                        stroke-width="3"
+                        d="M0 0 M644.203,1109.823 C644.203,1109.823 644.097,1150.555 644.097,1150.555"
+                      ></path>
+                    </g>
+                  </g>
+                  <g
+                    transform="matrix(1,0,0,1,-525.742,-1024.32)"
+                    opacity="1"
+                    style="user-select: none"
+                  >
+                    <g opacity="1" transform="matrix(1,0,0,1,644.992,1146.82)">
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="miter"
+                        fill-opacity="0"
+                        stroke-miterlimit="4"
+                        stroke="#fff"
+                        stroke-opacity="1"
+                        stroke-width="3"
+                        d="M0 0 M21.209,-21.209 C26.639,-15.778 30,-8.278 30,0 C30,16.557 16.557,30 0,30 C-16.557,30 -30,16.557 -30,0 C-30,-8.279 -26.639,-15.779 -21.209,-21.209"
+                      ></path>
+                    </g>
+                  </g>
+                  <g
+                    transform="matrix(1,0,0,1,121.5,116)"
+                    opacity="1"
+                    style="user-select: none"
+                  >
+                    <g opacity="1" transform="matrix(1,0,0,1,-0.5,6)">
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        fill-opacity="0"
+                        stroke="#fff"
+                        stroke-opacity="1"
+                        stroke-width="3"
+                        d="M0 0 M0,-110 C60.708999999999996,-110 110,-60.708999999999996 110,0 C110,60.708999999999996 60.708999999999996,110 0,110 C-60.708999999999996,110 -110,60.708999999999996 -110,0 C-110,-60.708999999999996 -60.708999999999996,-110 0,-110z"
+                      ></path>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </div>
+            <div class="description fadeIn linebreak">Click to start</div>
+            <div class="gdpr">
+             <p class="cooldown"><span class="in">0</span>/ <span class="total">0</span> in cooldown queue</p>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+    <script type="text/javascript" src="/eel.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
